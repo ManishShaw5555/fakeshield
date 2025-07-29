@@ -1,9 +1,10 @@
 import streamlit as st
 import requests
-from beautifulsoup4 import BeautifulSoup
+from bs4 import BeautifulSoup
 import tensorflow as tf
 import pickle
 import numpy as np
+from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 # ---- Configuration ---- #
