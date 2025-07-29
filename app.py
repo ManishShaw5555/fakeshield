@@ -1,6 +1,6 @@
 import streamlit as st
 import requests
-from bs4 import BeautifulSoup
+from beautifulsoup4 import BeautifulSoup
 import tensorflow as tf
 import pickle
 import numpy as np
