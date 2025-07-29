@@ -1,9 +1,21 @@
+# Core
 streamlit==1.35.0
-tensorflow==2.14.0
-requests==2.31.0
 beautifulsoup4==4.12.3
+requests==2.31.0
 pandas==2.2.2
 numpy==1.26.4
 scikit-learn==1.4.1
 joblib==1.4.0
+
+# For CNN model
+tensorflow==2.14.0
+
+# For HTML parsing
 lxml==5.2.1
+
+# Optional: if you're doing NLP/tokenizing
+nltk==3.8.1
+
+# Optional: if you use URL parsing or transformers
+tldextract==5.1.1
+
